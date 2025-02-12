@@ -32,7 +32,12 @@ const ProductCard = ({ product }: { product: ProductCardProps }) => {
 
         <div className="mt-2 mb-5 flex items-center justify-between">
           <p>
-            <span className="text-3xl font-bold text-slate-900">$449</span>
+            <span className="text-3xl font-bold text-slate-900">
+              {new Intl.NumberFormat("fr-FR", {
+                style: "currency",
+                currency: "EUR",
+              }).format(product.price)}
+            </span>
           </p>
         </div>
 
