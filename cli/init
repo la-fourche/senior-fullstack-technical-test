@@ -1,0 +1,6 @@
+#!/bin/bash
+
+HERE=$(cd "$(dirname "${0}")" && pwd)
+
+${HERE}/npm front install
+${HERE}/npm back install
