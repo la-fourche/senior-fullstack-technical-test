@@ -14,16 +14,16 @@ Ce dépôt contient une application e-commerce de base avec un frontend en Next 
 
 ### Option 1 : Docker
 
-Utilisez Docker et Docker Compose pour exécuter ce projet :
+Utilise Docker et Docker Compose pour exécuter ce projet :
 
 ```bash
-bin/init
+cli/init
 docker compose up
 ```
 
 ### Option 2 : Installation locale
 
-Installez les dépendances et lancez le projet :
+Installe les dépendances et lance le projet :
 
 ```bash
 npm install
@@ -38,6 +38,7 @@ npm run start
 2. Les fonctionnalités attendues sont :
    - Creation/Suppression de panier
    - Ajout/Suppression de produits dans le panier
+   - Gestion de la quantité des produits dans le panier
    - Calcul du prix total du panier
 3. Ajoute une gestion des erreurs robuste et des logs appropriés.
 4. Documente ton API.
@@ -46,9 +47,11 @@ npm run start
 
 ### Frontend
 
-1. Intégre l'API du panier dans l'application Front existante.
-2. Implémente une gestion d'état pour le panier.
-3. Le panier doit être conservé au refresh.
+1. Crée une page Panier dans l'application Front existante.
+2. Intégre l'API du panier.
+3. Implémente une gestion d'état pour le panier.
+4. Le panier doit être conservé au refresh.
+5. Concernant la gestion de quantité, garde une UX simple pour ne pas perdre de temps.
 
 ## Critères d'évaluation
 
@@ -58,14 +61,16 @@ npm run start
 - Gestion des erreurs et robustesse
 - Documentation et lisibilité du code
 
-## Bonus (si le temps le permet)
+## Bonus
+
+Selon le temps restant, tu peux implémenter la solution (ou une ébauche de solution) ou simplement décrire tes propositions par écrit dans le README.md.
 
 - Ajoute une fonctionnalité de synchronisation en temps réel du panier
 - Propose une stratégie de déploiement pour ta solution
 
 ## Livrables
 
-- Une invitation sur ton projet privé Github (saawsan et MartinLG-LaFourche) ou Gitlab (sawsan.cheffah et martin185)
+- Une invitation sur ton projet privé Github (saawsan, shalomaku, et MartinLG-LaFourche) ou Gitlab (sawsan.cheffah, shalom5 et martin185)
 - README expliquant votre approche, les choix d'architecture et les instructions pour exécuter le projet
 
 Bonne chance !
