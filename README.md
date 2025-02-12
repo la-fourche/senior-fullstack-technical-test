@@ -60,7 +60,7 @@ npm run start
 
 ## Bonus (si le temps le permet)
 
-- Ajoutez une fonctionnalité de synchronisation en temps réel du panier
+- Ajoute une fonctionnalité de synchronisation en temps réel du panier
 - Proposez une stratégie de déploiement pour ta solution
 
 ## Livrables
