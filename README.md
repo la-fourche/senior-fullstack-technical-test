@@ -42,7 +42,7 @@ npm run start
    - Calcul du prix total du panier
 3. Ajoute une gestion des erreurs robuste et des logs appropriés.
 4. Documente ton API.
-5. Met l'accent sur l'architecture logicielle, c'est là dessus qu'on t'attend.
+5. Met l'accent sur l'architecture logicielle (Hexa, DDD, Clean archi...), c'est là dessus qu'on t'attend.
 6. Tu peux utiliser le système de storage de ton choix, nous te recommendons de stocker les paniers en mémoire pour ne pas perdre de temps, mais tu as le droit de mettre en place une base de donnée SQLite ou PostgreSQL par exemple.
 
 ### Frontend
